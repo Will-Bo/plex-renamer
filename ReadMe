@@ -3,3 +3,6 @@ plex-renamer is a simple Python script that allows you to quickly rename multipl
 Additionally, each show/season is expected to be in its own folder. Perhaps more advanced sorting features could be added in a future update!
 
 To use it, just run the script! No additional libraries are required for it to run and it prompts the user for a media directory, so you don't have to add it to your PATH.
+
+TO ADD:
+RegEx support to turn all "_" in a filename into " " (or any other user-defined character)
