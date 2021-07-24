@@ -1,0 +1,5 @@
+plex-renamer is a simple Python script that allows you to quickly rename multiple improperly titled files to be compliant with Plex's metadata scanner. It just uses strings to function, so there is an expectation that the files roughly follow a naming convention that has a title and episode numbers (Ex: "Beyond the Boundary 01.mp4") and uses user input to bulk rename them (Ex: "Beyond the Boundary S1E01.mp4"). It can also be useful for removing unwanted sections of an improperly formatted filename (Ex: "Beyond the Boundary 01 (Rip).mp4" to "Beyond the Boundary 01.mp4"). 
+
+Additionally, each show/season is expected to be in its own folder. Perhaps more advanced sorting features could be added in a future update!
+
+To use it, just run the script! No additional libraries are required for it to run and it prompts the user for a media directory, so you don't have to add it to your PATH.
